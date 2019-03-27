@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Spring-first:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Spring_first_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Spring-first/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Spring-first" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-beans-5.1.5.RELEASE" />
+          <element id="library" level="project" name="spring-context-5.1.5.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
